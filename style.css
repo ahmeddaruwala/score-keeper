@@ -1,0 +1,96 @@
+.container
+{
+    width: 450px;
+    height: 500px;
+    background-color: bisque;
+}
+.container h2
+{
+    position: relative;
+    top: 50px;
+    left: 135px;
+}
+.container #targetNum
+{
+    width: 80px;
+    height: 40px;
+    background-color: #6a4a3a;
+    border: 2px solid black;
+    color: azure;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 182px;
+}
+.container button
+{
+    width: 60px;
+    height: 30px;
+    background-color: #8b6c5c;
+    color: azure;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    left: 103px;
+    top: 100px;
+    cursor: pointer;
+}
+.score-container
+{
+    width: 280px;
+    margin: auto;
+    text-align: center;
+    display: none;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+    position: relative;
+    top: 80px;
+}
+#btn1, #btn2
+{
+    width: 35px;
+    height: 30px;
+    position: relative;
+    left: 0px;
+    top: 10px;
+    background-color: #8b6c5c;
+    color: azure;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.win-container 
+{
+    text-align: center;
+}
+.win-container button
+{
+    width: 70px;
+    height: 30px;
+    position: relative;
+    left: 0px;
+    top: 90px;
+    background-color: #8b6c5c;
+    color: azure;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.win-container button:hover
+{
+    cursor: pointer;
+}
+#winner
+{
+    position: relative;
+    left: 0px;
+    top: 70px;
+}
